@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainbody{
+    /* margin: 50px; */
+    padding-left: 10px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin:30px
+}
+
+nav ul{
+    
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    margin-left: 50%;
+
+    
+}
+
+nav ul li{
+    margin: 20px;
+}
+
+.first-section{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    word-spacing: 3px;
+   
+}
+.second-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    font-size: 20px;
+    word-spacing: 3px;
+}
+.right-side img{
+    width: 50%;
+    height: 70%;
+}
+.left-items{
+    margin:10px;
+}
+.inner-section input{
+    height: 35px;
+    width: 230px;
+    border: 0.5px solid rgb(110, 107, 107);
+    border-radius: 5%;
+}
+.inner-section button{
+    background-color:#2f65f9;
+    width: 174px;
+    height: 35px;
+    color:white;
+    border:none;
+}
+
+.greenlink{
+    color:green;
+    display: inline;
+    border-bottom: 1px solid green;
+    align-items: center ;
+    text-decoration: none;
+}
+.greenlink a{
+    margin-bottom: 10px ;
+
+}
+.review{
+    width: 20%;
+}
+.review p{
+    word-spacing: 10px;
+
+}
+.quotation{
+    margin-bottom:25px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.profile img{
+    border-radius: 50%;;
+    height: 10%;
+    width: 15%;
+}
+.name{
+
+    margin-left: 20px;
+    font-size: 12px;
+}
+footer{
+    background-color: #07043b;
+    height: 300px;
+    color:white
+
+}
+.section1 img{
+    filter: brightness(0) invert(1);
+
+}
+.section2 ul{
+    list-style-type: none;
+
+}
+.section2 ul li{
+    margin:10px
+
+
+}
+
+
+.section3 ul{
+    list-style-type: none;
+
+
+}
+.section3 ul li{
+    margin:10px
+    
+
+}
+
+.section3 ul li{
+    margin:20px
+    
+
+}
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    /* align-items: center; */
+    justify-content: space-between;
+    
+}
+.footer-item{
+    margin-top: 100px;
+}
+
+
+@media screen and (max-width: 850px) {
+
+}
+
+@media screen and (max-width: 569px) {
+    .first-section{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .second-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .review{
+        width: 70%;
+        align-items: center;
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+
+}
